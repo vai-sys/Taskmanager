@@ -1,0 +1,107 @@
+.body{
+  background-color: black;
+  height:100vh;
+  width:100%;
+  padding:0;
+  margin:0;
+  color:white;
+
+}
+.main-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+input ::placeholder{
+  color:black;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  outline:none;
+  color:black;
+  font-size: 1rem;
+  font-weight: 600;
+  width:350px;
+}
+input:focus{
+  border:2px solid rgb(230, 147, 147);
+}
+.inputWithIcon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inputWithIcon input {
+  padding-right: 30px; 
+  height:30px;
+}
+
+.inputWithIcon svg {
+  position: absolute;
+  right: 10px; 
+  cursor: pointer; 
+  color:black;
+  font-size: 1.7rem;
+  font-weight: 800;
+
+}
+.inputWithIcon svg:hover{
+  color:green;
+}
+.eachItem{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width:380px;
+  height:30px;
+  color:black;
+  margin-left:3px;
+  margin-top:20px;
+  padding:3px;
+  
+}
+/* .eachItem:hover{
+  background-color: rgb(178, 230, 178);
+} */
+.eachItem svg{
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.eachItem p{
+  font-weight: 700;
+  font-size: 1rem;
+  padding-left:4px;
+}
+
+.btns{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+}
+button{
+  padding:10px 16px;
+  border:none;
+  color:white;
+  background-color: rgb(6, 163, 6);
+  border-radius: 5px;
+  font-weight: 600;
+  margin:10px 10px;
+}
+.edit:hover{
+  color:green;
+
+}
+.delete:hover{
+  color:red;
+}
+.edit{
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+
